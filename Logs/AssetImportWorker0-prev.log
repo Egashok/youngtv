@@ -1,0 +1,100 @@
+Using pre-set license
+Built from 'trunk' branch; Version is '2020.2.0a19 (8037ac78137e) revision 8402860'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'ru' Physical Memory: 16332 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\unity\2020.2.0a19\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/projunity/heart
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56245
+Successfully changed project path to: D:/projunity/heart
+D:/projunity/heart
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 38.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.0a19 (8037ac78137e)
+[Subsystems] Discovering subsystems at path D:/unity/2020.2.0a19/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/projunity/heart/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 560 Series (ID=0x67ef)
+    Vendor:   
+    VRAM:     4075 MB
+    Driver:   27.20.1034.6
+Initialize mono
+Mono path[0] = 'D:/unity/2020.2.0a19/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2020.2.0a19/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/unity/2020.2.0a19/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56392
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2020.2.0a19/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001070 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 33.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.543 seconds
+Registering precompiled user dll's ...
+Registered in 0.057396 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\projunity\heart\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 37.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.737 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.0 MB.
+System memory in use after: 81.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2202.
+Total: 2.214200 ms (FindLiveObjects: 0.475200 ms CreateObjectMapping: 0.050400 ms MarkObjects: 1.641200 ms  DeleteObjects: 0.046400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/menu.unity
+  artifactKey: Guid(0ab5238c036fc7940a05188ba697db2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/menu.unity using Guid(0ab5238c036fc7940a05188ba697db2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05656c289f8ca98573ab3396b6fbd933') in 0.060045 seconds
+  Import took 0.063315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 352.449905 seconds.
+  path: Assets/icon/silver-circle-png-8.png
+  artifactKey: Guid(d72685875c96657418362bbf0a1ec1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icon/silver-circle-png-8.png using Guid(d72685875c96657418362bbf0a1ec1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32193836438c12c3629e798da6e1883f') in 0.201330 seconds
+  Import took 0.221039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 253.353291 seconds.
+  path: Assets/icon/filewhite-triangle-leftsvg-wikimedia-commons-white-triangle-png-1024_1024.png
+  artifactKey: Guid(2f4afa0da2ba9984bb6e62171fd432bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icon/filewhite-triangle-leftsvg-wikimedia-commons-white-triangle-png-1024_1024.png using Guid(2f4afa0da2ba9984bb6e62171fd432bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b3d5a0792ac48fd1e13dbc91920309') in 0.031525 seconds
+  Import took 0.051705 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
