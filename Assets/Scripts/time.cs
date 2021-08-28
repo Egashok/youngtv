@@ -18,7 +18,7 @@ public class time : MonoBehaviour
         {
             score.lose = true;
         }
-        xt.text = times.ToString();
+        xt.text = times.ToString("0.0");
         times -= Time.deltaTime;
     }
 }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - tr
   - fl
+  - hs
   layers:
   - Default
   - TransparentFX
